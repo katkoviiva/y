@@ -1,7 +1,3 @@
-// NeoPixel Ring simple sketch (c) 2013 Shae Erisson
-// Released under the GPLv3 license to match the rest of the
-// Adafruit NeoPixel library
-
 #include <Adafruit_NeoPixel.h>
 #ifdef __AVR__
  #include <avr/power.h> // Required for 16 MHz Adafruit Trinket
@@ -76,12 +72,12 @@ void loop() {
   pixels.setPixelColor(37, pixels.Color(14, 15, 0));
   pixels.setPixelColor(38, pixels.Color(14, 15, 0));
   pixels.setPixelColor(39, pixels.Color(14, 15, 0));
-  pixels.setPixelColor(32, pixels.Color(14, 15, 0));
-  pixels.setPixelColor(33, pixels.Color(14, 15, 0));
-  pixels.setPixelColor(34, pixels.Color(14, 15, 0));
-  pixels.setPixelColor(35, pixels.Color(14, 15, 0));
-  pixels.setPixelColor(36, pixels.Color(14, 15, 0));
-  pixels.setPixelColor(37, pixels.Color(14, 15, 0));
+  pixels.setPixelColor(40, pixels.Color(14, 15, 0));
+  pixels.setPixelColor(41, pixels.Color(14, 15, 0));
+  pixels.setPixelColor(42, pixels.Color(14, 15, 0));
+  pixels.setPixelColor(43, pixels.Color(14, 15, 0));
+  pixels.setPixelColor(44, pixels.Color(14, 15, 0));
+  pixels.setPixelColor(45, pixels.Color(14, 15, 0));
   /*pixels.setPixelColor(38, pixels.Color(14, 15, 0));
   pixels.setPixelColor(1, pixels.Color(14, 15, 0));
   pixels.setPixelColor(2, pixels.Color(14, 15, 0));
