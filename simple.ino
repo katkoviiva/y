@@ -78,8 +78,8 @@ void loop() {
   pixels.setPixelColor(43, pixels.Color(14, 15, 0));
   pixels.setPixelColor(44, pixels.Color(14, 15, 0));
   pixels.setPixelColor(45, pixels.Color(14, 15, 0));
-  /*pixels.setPixelColor(38, pixels.Color(14, 15, 0));
-  pixels.setPixelColor(1, pixels.Color(14, 15, 0));
+  pixels.setPixelColor(46, pixels.Color(14, 15, 0));
+  /*pixels.setPixelColor(1, pixels.Color(14, 15, 0));
   pixels.setPixelColor(2, pixels.Color(14, 15, 0));
   pixels.setPixelColor(3, pixels.Color(14, 15, 0));
   pixels.setPixelColor(4, pixels.Color(14, 15, 0));
