@@ -74,6 +74,14 @@ void loop() {
   pixels.setPixelColor(35, pixels.Color(14, 15, 0));
   pixels.setPixelColor(36, pixels.Color(14, 15, 0));
   pixels.setPixelColor(37, pixels.Color(14, 15, 0));
+  pixels.setPixelColor(38, pixels.Color(14, 15, 0));
+  pixels.setPixelColor(39, pixels.Color(14, 15, 0));
+  pixels.setPixelColor(32, pixels.Color(14, 15, 0));
+  pixels.setPixelColor(33, pixels.Color(14, 15, 0));
+  pixels.setPixelColor(34, pixels.Color(14, 15, 0));
+  pixels.setPixelColor(35, pixels.Color(14, 15, 0));
+  pixels.setPixelColor(36, pixels.Color(14, 15, 0));
+  pixels.setPixelColor(37, pixels.Color(14, 15, 0));
   /*pixels.setPixelColor(38, pixels.Color(14, 15, 0));
   pixels.setPixelColor(1, pixels.Color(14, 15, 0));
   pixels.setPixelColor(2, pixels.Color(14, 15, 0));
