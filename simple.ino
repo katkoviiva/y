@@ -80,23 +80,23 @@ void loop() {
   pixels.setPixelColor(45, pixels.Color(14, 15, 0));
   pixels.setPixelColor(46, pixels.Color(14, 15, 0));
   pixels.setPixelColor(47, pixels.Color(14, 15, 0));
-  pixels.setPixelColor(2, pixels.Color(14, 15, 0));
-  pixels.setPixelColor(3, pixels.Color(14, 15, 0));
-  pixels.setPixelColor(4, pixels.Color(14, 15, 0));
-  pixels.setPixelColor(5, pixels.Color(14, 15, 0));
-  pixels.setPixelColor(6, pixels.Color(14, 15, 0));
-  pixels.setPixelColor(7, pixels.Color(14, 15, 0));
-  pixels.setPixelColor(8, pixels.Color(14, 15, 0));
-  pixels.setPixelColor(9, pixels.Color(14, 15, 0));
-  pixels.setPixelColor(10, pixels.Color(14, 15, 0));
-  pixels.setPixelColor(11, pixels.Color(14, 15, 0));
-  pixels.setPixelColor(12, pixels.Color(14, 15, 0));
-  pixels.setPixelColor(13, pixels.Color(14, 15, 0));
-  pixels.setPixelColor(14, pixels.Color(14, 15, 0));
-  pixels.setPixelColor(15, pixels.Color(14, 15, 0));
-  pixels.setPixelColor(16, pixels.Color(14, 15, 0));
-  pixels.setPixelColor(17, pixels.Color(14, 15, 0));
-  pixels.setPixelColor(18, pixels.Color(14, 15, 0));
+  pixels.setPixelColor(48, pixels.Color(14, 15, 0));
+  pixels.setPixelColor(49, pixels.Color(14, 15, 0));
+  pixels.setPixelColor(50, pixels.Color(14, 15, 0));
+  pixels.setPixelColor(51, pixels.Color(14, 15, 0));
+  pixels.setPixelColor(52, pixels.Color(14, 15, 0));
+  pixels.setPixelColor(53, pixels.Color(14, 15, 0));
+  pixels.setPixelColor(54, pixels.Color(14, 15, 0));
+  pixels.setPixelColor(55, pixels.Color(14, 15, 0));
+  pixels.setPixelColor(56, pixels.Color(14, 15, 0));
+  pixels.setPixelColor(57, pixels.Color(14, 15, 0));
+  pixels.setPixelColor(58, pixels.Color(14, 15, 0));
+  pixels.setPixelColor(59, pixels.Color(14, 15, 0));
+  pixels.setPixelColor(60, pixels.Color(14, 15, 0));
+  pixels.setPixelColor(61, pixels.Color(14, 15, 0));
+  pixels.setPixelColor(62, pixels.Color(14, 15, 0));
+  pixels.setPixelColor(63, pixels.Color(14, 15, 0));
+  pixels.setPixelColor(64, pixels.Color(14, 15, 0));
     pixels.show();   // Send the updated pixel colors to the hardware.to the count of pixels minus one.
   
 }
