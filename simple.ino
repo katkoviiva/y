@@ -79,7 +79,7 @@ void loop() {
   pixels.setPixelColor(44, pixels.Color(14, 15, 0));
   pixels.setPixelColor(45, pixels.Color(14, 15, 0));
   pixels.setPixelColor(46, pixels.Color(14, 15, 0));
-  /*pixels.setPixelColor(1, pixels.Color(14, 15, 0));
+  pixels.setPixelColor(47, pixels.Color(14, 15, 0));
   pixels.setPixelColor(2, pixels.Color(14, 15, 0));
   pixels.setPixelColor(3, pixels.Color(14, 15, 0));
   pixels.setPixelColor(4, pixels.Color(14, 15, 0));
@@ -96,7 +96,7 @@ void loop() {
   pixels.setPixelColor(15, pixels.Color(14, 15, 0));
   pixels.setPixelColor(16, pixels.Color(14, 15, 0));
   pixels.setPixelColor(17, pixels.Color(14, 15, 0));
-  pixels.setPixelColor(18, pixels.Color(14, 15, 0));*/
+  pixels.setPixelColor(18, pixels.Color(14, 15, 0));
     pixels.show();   // Send the updated pixel colors to the hardware.to the count of pixels minus one.
   
 }
