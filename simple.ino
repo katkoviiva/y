@@ -196,6 +196,7 @@ void loop() {
   pixels.setPixelColor(157, pixels.Color(14, 15, 0));
   pixels.setPixelColor(158, pixels.Color(14, 15, 0));
   pixels.setPixelColor(159, pixels.Color(14, 15, 0));
+  pixels.setPixelColor(160, pixels.Color(14, 15, 0));
     pixels.show();   // Send the updated pixel colors to the hardware.to the count of pixels minus one.
   
 }
