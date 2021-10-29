@@ -6,15 +6,15 @@
 	<vox id_="6" pos="0.0 0.1 0.0" texture="9.0" file="MOD/base.vox"/>
 	<vox id_="7" pos="0.0 0.1 -25.4" texture="9.0" file="MOD/base.vox"/>
 	<vox id_="8" pos="0.0 0.1 25.8" texture="9.0" file="MOD/base.vox"/>
-	<light id_="1095238912" pos="0.4 9.3 8.6" type="sphere" color="1 1 1" scale="5" angle="90" penumbra="10" size="o.1" fogscale="1" fogiter="1"/>
-	<light id_="928570752" pos="0.4 9.3 -11.5" type="sphere" color="1 1 1" scale="5" angle="90" penumbra="10" size="o.1" fogscale="1" fogiter="1"/>
-	<light id_="769898368" pos="0.4 17.5 -2.8" type="sphere" color="1 1 1" scale="5" angle="90" penumbra="10" size="o.1" fogscale="1" fogiter="1"/>
-	<light id_="1283797504" pos="0.4 10.2 -2.8" type="sphere" color="1 1 1" scale="5" angle="90" penumbra="10" size="o.1" fogscale="1" fogiter="1"/>
-	<light id_="1430213888" pos="0.4 4.2 -0.6" type="sphere" color="1 0 0" scale="5" angle="90" penumbra="10" size="o.1" fogscale="1" fogiter="1"/>
-	<body id_="1526098944" pos="-0.6 42.1 -1.7" dynamic="true"/>
-	<vox id_="606638208" tags="unbreakable" pos="14.4 29.1 -7.6" rot="0.0 90.0 0.0" texture="2 0.5" file="MOD/road nopence.vox"/>
-	<vox id_="366761856" tags="unbreakable" pos="23.8 29.1 -7.6" rot="0.0 90.0 0.0" texture="2 0.5" file="MOD/road nopence.vox">
-		<voxbox id_="645896704" tags="unbreakable" pos="-17.0 -5.9 -11.0" rot="0.0 0.0 0.0" size="90 3 189" brush="MOD/grass.vox"/>
+	<light id_="9" pos="0.4 9.3 8.6" type="sphere" color="1 1 1" scale="5" angle="90" penumbra="10" size="o.1" fogscale="1" fogiter="1"/>
+	<light id_="10" pos="0.4 9.3 -11.5" type="sphere" color="1 1 1" scale="5" angle="90" penumbra="10" size="o.1" fogscale="1" fogiter="1"/>
+	<light id_="11" pos="0.4 17.5 -2.8" type="sphere" color="1 1 1" scale="5" angle="90" penumbra="10" size="o.1" fogscale="1" fogiter="1"/>
+	<light id_="12" pos="0.4 10.2 -2.8" type="sphere" color="1 1 1" scale="5" angle="90" penumbra="10" size="o.1" fogscale="1" fogiter="1"/>
+	<light id_="13" pos="0.4 4.2 -0.6" type="sphere" color="1 0 0" scale="5" angle="90" penumbra="10" size="o.1" fogscale="1" fogiter="1"/>
+	<body id_="14" pos="-0.6 42.1 -1.7" dynamic="true"/>
+	<vox id_="15" tags="unbreakable" pos="14.4 29.1 -7.6" rot="0.0 90.0 0.0" texture="2 0.5" file="MOD/road nopence.vox"/>
+	<vox id_="16" tags="unbreakable" pos="23.8 29.1 -7.6" rot="0.0 90.0 0.0" texture="2 0.5" file="MOD/road nopence.vox">
+		<voxbox id_="17" tags="unbreakable" pos="-17.0 -5.9 -11.0" rot="0.0 0.0 0.0" size="90 3 189" brush="MOD/grass.vox"/>
 		<voxbox id_="857459840" tags="unbreakable" pos="-0.8 -5.9 -11.0" rot="0.0 0.0 0.0" size="118 3 189" brush="MOD/grass.vox"/>
 	</vox>
 	<vox id_="119610496" pos="5.9 23.3 -78.9" texture="2 0.5" file="Villa Woo/villa_bollard.vox"/>
