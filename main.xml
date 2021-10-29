@@ -15,7 +15,7 @@
 	<vox id_="15" tags="unbreakable" pos="14.4 29.1 -7.6" rot="0.0 90.0 0.0" texture="2 0.5" file="MOD/road nopence.vox"/>
 	<vox id_="16" tags="unbreakable" pos="23.8 29.1 -7.6" rot="0.0 90.0 0.0" texture="2 0.5" file="MOD/road nopence.vox">
 		<voxbox id_="17" tags="unbreakable" pos="-17.0 -5.9 -11.0" rot="0.0 0.0 0.0" size="90 3 189" brush="MOD/grass.vox"/>
-		<voxbox id_="857459840" tags="unbreakable" pos="-0.8 -5.9 -11.0" rot="0.0 0.0 0.0" size="118 3 189" brush="MOD/grass.vox"/>
+		<voxbox id_="18" tags="unbreakable" pos="-0.8 -5.9 -11.0" rot="0.0 0.0 0.0" size="118 3 189" brush="MOD/grass.vox"/>
 	</vox>
 	<vox id_="119610496" pos="5.9 23.3 -78.9" texture="2 0.5" file="Villa Woo/villa_bollard.vox"/>
 	<vox id_="1954468352" pos="-0.6 23.3 -78.9" texture="2 0.5" file="Villa Woo/villa_bollard.vox"/>
