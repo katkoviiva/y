@@ -63,10 +63,10 @@
 					<group name="front door rail">
 						<voxbox name="front post" texture="6" size="1 12 1" brush="MOD/main/realistic_house/building/realistic house walls and floors.vox" object="stairs:wood brush"/>
 						<voxbox name="front post" texture="6" size="1 12 1" brush="MOD/main/realistic_house/building/realistic house walls and floors.vox" object="stairs:wood brush"/>
-						<voxbox name="front post" pos="0.3 0.0 0.1" rot="0.0 180.0 0.0" texture="6" size="1 12 1" brush="MOD/main/realistic_house/building/realistic house walls and floors.vox" object="stairs:wood brush"/>
-						<voxbox name="front post" pos="0.7 0.0 0.1" rot="0.0 180.0 0.0" texture="6" size="1 12 1" brush="MOD/main/realistic_house/building/realistic house walls and floors.vox" object="stairs:wood brush"/>
-						<voxbox name="front post" pos="0.7 1.2 0.1" rot="0.0 180.0 -90.0" texture="6" size="1 14 1" brush="MOD/main/realistic_house/building/realistic house walls and floors.vox" object="stairs:wood brush"/>
-						<voxbox name="front post" pos="0.7 0.6 0.1" rot="0.0 180.0 -90.0" texture="6" size="2 14 1" brush="MOD/main/realistic_house/building/realistic house walls and floors.vox" object="stairs:wood brush"/>
+						<voxbox name="front post" texture="6" size="1 12 1" brush="MOD/main/realistic_house/building/realistic house walls and floors.vox" object="stairs:wood brush"/>
+						<voxbox name="front post" texture="6" size="1 12 1" brush="MOD/main/realistic_house/building/realistic house walls and floors.vox" object="stairs:wood brush"/>
+						<voxbox name="front post" texture="6" size="1 14 1" brush="MOD/main/realistic_house/building/realistic house walls and floors.vox" object="stairs:wood brush"/>
+						<voxbox name="front post" texture="6" size="2 14 1" brush="MOD/main/realistic_house/building/realistic house walls and floors.vox" object="stairs:wood brush"/>
 						<voxbox name="front post" pos="2.5 0.0 0.1" rot="0.0 180.0 0.0" texture="6" size="1 12 1" brush="MOD/main/realistic_house/building/realistic house walls and floors.vox" object="stairs:wood brush"/>
 						<voxbox name="front post" pos="2.9 0.0 0.1" rot="0.0 180.0 0.0" texture="6" size="1 12 1" brush="MOD/main/realistic_house/building/realistic house walls and floors.vox" object="stairs:wood brush"/>
 						<voxbox name="front post" pos="3.4 0.0 0.1" rot="0.0 180.0 0.0" texture="6" size="1 12 1" brush="MOD/main/realistic_house/building/realistic house walls and floors.vox" object="stairs:wood brush"/>
