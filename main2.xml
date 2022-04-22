@@ -54,7 +54,7 @@
 					<voxbox name="floor" size="82 1 133" brush="MOD/main/realistic_house/building/realistic house walls and floors.vox" object="floor garage"/>
 					<voxbox name="floor" size="216 1 33" brush="MOD/main/realistic_house/building/realistic house walls and floors.vox" object="floor garage"/>
 					<voxbox name="floor" size="147 1 65" brush="MOD/main/realistic_house/building/realistic house walls and floors.vox" object="floor garage"/>
-					<voxbox name="floor" rot="0.0 0.0 0.0" size="98 1 87" brush="MOD/main/realistic_house/building/realistic house walls and floors.vox" object="floor garage"/>
+					<voxbox name="floor" size="98 1 87" brush="MOD/main/realistic_house/building/realistic house walls and floors.vox" object="floor garage"/>
 					<voxbox name="floor" size="98 1 42" brush="MOD/main/realistic_house/building/realistic house walls and floors.vox" object="floor garage"/>
 					<voxbox name="floor" size="98 1 1" brush="MOD/main/realistic_house/building/realistic house walls and floors.vox" object="floor garage"/>
 					<voxbox name="floor" texture="6" size="17 1 152" brush="MOD/main/realistic_house/building/realistic house walls and floors.vox" object="floor yard entrance"/>
@@ -67,8 +67,8 @@
 						<voxbox name="front post" texture="6" size="1 12 1" brush="MOD/main/realistic_house/building/realistic house walls and floors.vox" object="stairs:wood brush"/>
 						<voxbox name="front post" texture="6" size="1 14 1" brush="MOD/main/realistic_house/building/realistic house walls and floors.vox" object="stairs:wood brush"/>
 						<voxbox name="front post" texture="6" size="2 14 1" brush="MOD/main/realistic_house/building/realistic house walls and floors.vox" object="stairs:wood brush"/>
-						<voxbox name="front post" pos="2.5 0.0 0.1" rot="0.0 180.0 0.0" texture="6" size="1 12 1" brush="MOD/main/realistic_house/building/realistic house walls and floors.vox" object="stairs:wood brush"/>
-						<voxbox name="front post" pos="2.9 0.0 0.1" rot="0.0 180.0 0.0" texture="6" size="1 12 1" brush="MOD/main/realistic_house/building/realistic house walls and floors.vox" object="stairs:wood brush"/>
+						<voxbox name="front post" texture="6" size="1 12 1" brush="MOD/main/realistic_house/building/realistic house walls and floors.vox" object="stairs:wood brush"/>
+						<voxbox name="front post" rot="0.0 180.0 0.0" texture="6" size="1 12 1" brush="MOD/main/realistic_house/building/realistic house walls and floors.vox" object="stairs:wood brush"/>
 						<voxbox name="front post" pos="3.4 0.0 0.1" rot="0.0 180.0 0.0" texture="6" size="1 12 1" brush="MOD/main/realistic_house/building/realistic house walls and floors.vox" object="stairs:wood brush"/>
 						<voxbox name="front post" pos="3.8 0.0 0.1" rot="0.0 180.0 0.0" texture="6" size="1 12 1" brush="MOD/main/realistic_house/building/realistic house walls and floors.vox" object="stairs:wood brush"/>
 						<voxbox name="front post" pos="3.8 1.2 0.1" rot="0.0 180.0 -90.0" texture="6" size="1 14 1" brush="MOD/main/realistic_house/building/realistic house walls and floors.vox" object="stairs:wood brush"/>
