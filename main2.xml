@@ -10097,9 +10097,9 @@
 								</body>
 							</group>
 							<body name="SR1 internal" tags="Yhood nocull" pos="0.9 -0.7 3.7" dynamic="true">
-								<vox pos="-0.0 0.0 0.0" rot="0.0 -180.0 0.0" file="MOD/main/ambulance-TWC/ambulance01.vox" object="tray-2"/>
-								<joint pos="-0.0 0.0 -0.3" rot="0.0 90.0 0.0" type="prismatic" limits="0 0.4"/>
-								<joint pos="-0.0 0.0 0.4" rot="0.0 90.0 0.0" type="prismatic" limits="0 0.4"/>
+								<vox file="MOD/main/ambulance-TWC/ambulance01.vox" object="tray-2"/>
+								<joint type="prismatic" limits="0 0.4"/>
+								<joint type="prismatic" limits="0 0.4"/>
 							</body>
 							<body name="SR2 internal" tags="Yhood nocull" dynamic="true">
 								<vox file="MOD/main/ambulance-TWC/ambulance01.vox" object="tray-1"/>
@@ -10263,7 +10263,7 @@
 									<light tags="lfrml2" type="cone" color="1 1 1" scale="2000" angle="50" penumbra="30" size="0.05" unshadowed="0" fogscale="1" fogiter="0.5" glare="0"/>
 								</vox>
 								<vox tags="Ylight=BL" file="MOD/main/police-TWC/jeep01_police-TWC.vox" object="tl-fl"/>
-								<vox tags="Ylight=BR" rot="0 180 0" file="MOD/main/police-TWC/jeep01_police-TWC.vox" object="tl-fr"/>
+								<vox tags="Ylight=BR" file="MOD/main/police-TWC/jeep01_police-TWC.vox" object="tl-fr"/>
 								<vox tags="Ylight=BL" file="MOD/main/police-TWC/jeep01_police-TWC.vox" object="tl-bl"/>
 								<vox tags="Ylight=BR" file="MOD/main/police-TWC/jeep01_police-TWC.vox" object="tl-br"/>
 								<vox tags="Ylight=FM" file="MOD/main/police-TWC/jeep01_police-TWC.vox" object="fladd"/>
@@ -10341,7 +10341,7 @@
 							<vox strength="6" file="MOD/main/police-TWC/jeep01_police-TWC.vox" object="doorL"/>
 						</body>
 						<body name="door front right" tags="Ydoor nocull" dynamic="true">
-							<vox pos="0.3 0.9 -0.3" rot="0.0 -180.0 0.0" strength="6" file="MOD/main/police-TWC/jeep01_police-TWC.vox" object="mirrorR"/>
+							<vox strength="6" file="MOD/main/police-TWC/jeep01_police-TWC.vox" object="mirrorR"/>
 							<vox strength="6" file="MOD/main/police-TWC/jeep01_police-TWC.vox" object="doorR"/>
 						</body>
 						<body name="door back left" tags="Ydoor nocull" dynamic="true">
