@@ -83,7 +83,7 @@
 					</group>
 				</group>
 				<group name="inside brush">
-					<voxbox name="floor" pos="4.2 0.1 24.6" rot="0.0 0.0 0.0" size="89 4 60" brush="MOD/main/realistic_house/building/realistic house walls and floors.vox" object="floor kitchen"/>
+					<voxbox name="floor" size="89 4 60" brush="MOD/main/realistic_house/building/realistic house walls and floors.vox" object="floor kitchen"/>
 					<voxbox name="floor" pos="-3.6 0.1 2.4" rot="0.0 0.0 0.0" size="70 4 153" brush="MOD/main/realistic_house/building/realistic house walls and floors.vox" object="floor"/>
 					<voxbox name="floor" pos="-13.4 0.1 5.9" rot="0.0 0.0 0.0" size="98 4 113" brush="MOD/main/realistic_house/building/realistic house walls and floors.vox" object="floor"/>
 					<voxbox name="floor" pos="-5.2 0.1 17.7" rot="0.0 0.0 0.0" size="94 4 128" brush="MOD/main/realistic_house/building/realistic house walls and floors.vox" object="floor"/>
