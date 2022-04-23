@@ -89,43 +89,43 @@
 					<voxbox name="floor" size="94 4 128" brush="MOD/main/realistic_house/building/realistic house walls and floors.vox" object="floor"/>
 					<voxbox name="floor" size="103 4 152" brush="MOD/main/realistic_house/building/realistic house walls and floors.vox" object="floor"/>
 					<voxbox name="floor" size="28 4 179" brush="MOD/main/realistic_house/building/realistic house walls and floors.vox" object="floor"/>
-					<voxbox name="floor" pos="3.3 0.1 -3.9" rot="0.0 0.0 0.0" size="127 4 133" brush="MOD/main/realistic_house/building/realistic house walls and floors.vox" object="floor garage"/>
-					<voxbox name="floor" pos="13.3 0.1 9.4" rot="0.0 0.0 0.0" size="27 4 32" brush="MOD/main/realistic_house/building/realistic house walls and floors.vox" object="floor garage"/>
-					<voxbox name="floor" pos="14.6 0.1 -3.9" rot="0.0 180.0 0.0" size="98 4 25" brush="MOD/main/realistic_house/building/realistic house walls and floors.vox" object="floor garage ramp"/>
-					<voxbox pos="-13.38 0.44 5.89" rot="0.0 0.0 0.0" size="117 1 113" brush="MOD/main/realistic_house/building/realistic house walls and floors.vox" object="carpet dried thistle"/>
+					<voxbox name="floor" size="127 4 133" brush="MOD/main/realistic_house/building/realistic house walls and floors.vox" object="floor garage"/>
+					<voxbox name="floor" size="27 4 32" brush="MOD/main/realistic_house/building/realistic house walls and floors.vox" object="floor garage"/>
+					<voxbox name="floor" size="98 4 25" brush="MOD/main/realistic_house/building/realistic house walls and floors.vox" object="floor garage ramp"/>
+					<voxbox size="117 1 113" brush="MOD/main/realistic_house/building/realistic house walls and floors.vox" object="carpet dried thistle"/>
 				</group>
 			</group>
-			<group name="walls" pos="0.0 0.0 0.0">
-				<group name="corners" pos="4.6 0.0 -2.3">
-					<vox pos="-7.0 0.1 5.0" rot="0.0 90.0 0.0" file="MOD/main/realistic_house/building/realistic house walls and floors.vox" object="outer wall corner R"/>
-					<vox pos="-0.1 0.1 -1.5" rot="0.0 90.0 0.0" file="MOD/main/realistic_house/building/realistic house walls and floors.vox" object="outer wall corner R"/>
-					<vox pos="12.2 0.1 -1.5" rot="0.0 0.0 0.0" file="MOD/main/realistic_house/building/realistic house walls and floors.vox" object="outer wall corner R"/>
-					<vox pos="-16.8 0.1 19.2" rot="0.0 180.0 0.0" file="MOD/main/realistic_house/building/realistic house walls and floors.vox" object="outer wall corner R"/>
-					<vox pos="12.2 0.1 32.5" rot="0.0 -90.0 0.0" file="MOD/main/realistic_house/building/realistic house walls and floors.vox" object="outer wall corner R"/>
-					<vox pos="-8.6 0.1 32.5" rot="0.0 180.0 0.0" file="MOD/main/realistic_house/building/realistic house walls and floors.vox" object="outer wall corner R"/>
-					<vox pos="-16.8 0.1 8.3" rot="0.0 90.0 0.0" file="MOD/main/realistic_house/building/realistic house walls and floors.vox" object="outer wall corner R"/>
-					<vox pos="-8.3 0.1 7.0" rot="0.0 0.0 0.0" file="MOD/main/realistic_house/building/realistic house walls and floors.vox" object="outer wall corner inner"/>
+			<group name="walls">
+				<group name="corners">
+					<vox file="MOD/main/realistic_house/building/realistic house walls and floors.vox" object="outer wall corner R"/>
+					<vox file="MOD/main/realistic_house/building/realistic house walls and floors.vox" object="outer wall corner R"/>
+					<vox file="MOD/main/realistic_house/building/realistic house walls and floors.vox" object="outer wall corner R"/>
+					<vox file="MOD/main/realistic_house/building/realistic house walls and floors.vox" object="outer wall corner R"/>
+					<vox file="MOD/main/realistic_house/building/realistic house walls and floors.vox" object="outer wall corner R"/>
+					<vox file="MOD/main/realistic_house/building/realistic house walls and floors.vox" object="outer wall corner R"/>
+					<vox file="MOD/main/realistic_house/building/realistic house walls and floors.vox" object="outer wall corner R"/>
+					<vox file="MOD/main/realistic_house/building/realistic house walls and floors.vox" object="outer wall corner inner"/>
 				</group>
-				<group name="windows" pos="1.0 0.0 -3.0">
-					<vox pos="-8.2 0.1 8.4" file="MOD/main/realistic_house/building/realistic house walls and floors.vox" object="outer wall window large curtain"/>
-					<vox pos="-13.9 0.1 12.5" rot="0.0 90.0 0.0" file="MOD/main/realistic_house/building/realistic house walls and floors.vox" object="outer wall window long"/>
-					<vox pos="-8.2 0.1 20.6" rot="0.0 180.0 0.0" file="MOD/main/realistic_house/building/realistic house walls and floors.vox" object="outer wall window large"/>
-					<vox pos="-1.5 0.1 33.8" rot="0.0 180.0 0.0" file="MOD/main/realistic_house/building/realistic house walls and floors.vox" object="outer wall window large curtain"/>
-					<vox pos="8.3 0.1 33.9" rot="0.0 180.0 0.0" file="MOD/main/realistic_house/building/realistic house walls and floors.vox" object="outer wall window long"/>
-					<vox pos="16.5 0.1 31.0" rot="0.0 -90.0 0.0" file="MOD/main/realistic_house/building/realistic house walls and floors.vox" object="outer wall window"/>
+				<group name="windows">
+					<vox file="MOD/main/realistic_house/building/realistic house walls and floors.vox" object="outer wall window large curtain"/>
+					<vox file="MOD/main/realistic_house/building/realistic house walls and floors.vox" object="outer wall window long"/>
+					<vox file="MOD/main/realistic_house/building/realistic house walls and floors.vox" object="outer wall window large"/>
+					<vox file="MOD/main/realistic_house/building/realistic house walls and floors.vox" object="outer wall window large curtain"/>
+					<vox file="MOD/main/realistic_house/building/realistic house walls and floors.vox" object="outer wall window long"/>
+					<vox file="MOD/main/realistic_house/building/realistic house walls and floors.vox" object="outer wall window"/>
 				</group>
-				<group name="normal" pos="0.0 0.0 0.0">
-					<vox pos="3.8 0.1 -0.3" rot="0.0 90.0 0.0" file="MOD/main/realistic_house/building/realistic house walls and floors.vox" object="outer wall"/>
-					<vox pos="-12.9 0.1 14.1" rot="0.0 90.0 0.0" file="MOD/main/realistic_house/building/realistic house walls and floors.vox" object="outer wall"/>
-					<vox pos="-4.7 0.1 19.9" rot="0.0 90.0 0.0" file="MOD/main/realistic_house/building/realistic house walls and floors.vox" object="outer wall"/>
-					<vox pos="-4.7 0.1 28.3" rot="0.0 90.0 0.0" file="MOD/main/realistic_house/building/realistic house walls and floors.vox" object="outer wall"/>
-					<group name="normal brushes" pos="8.1 0.1 -2.9">
-						<voxbox pos="-3.7 0.4 5.5" rot="0.0 180.0 0.0" size="11 30 6" brush="MOD/main/realistic_house/building/realistic house walls and floors.vox" object="dry wall"/>
-						<voxbox pos="-17.6 0.0 8.8" rot="0.0 -180.0 0.0" size="15 34 12" brush="MOD/main/realistic_house/building/realistic house walls and floors.vox" object="outer wall"/>
-						<voxbox pos="-4.4 0.4 10.2" rot="0.0 90.0 0.0" size="49 30 7" brush="MOD/main/realistic_house/building/realistic house walls and floors.vox" object="dry wall"/>
-						<voxbox pos="-4.4 0.4 12.8" rot="0.0 90.0 0.0" size="27 30 7" brush="MOD/main/realistic_house/building/realistic house walls and floors.vox" object="dry wall"/>
-						<voxbox pos="0.4 0.4 12.8" rot="0.0 180.0 0.0" size="42 30 7" brush="MOD/main/realistic_house/building/realistic house walls and floors.vox" object="dry wall"/>
-						<voxbox pos="3.6 0.4 12.1" rot="0.0 0.0 0.0" size="8 30 7" brush="MOD/main/realistic_house/building/realistic house walls and floors.vox" object="dry wall"/>
+				<group name="normal">
+					<vox file="MOD/main/realistic_house/building/realistic house walls and floors.vox" object="outer wall"/>
+					<vox file="MOD/main/realistic_house/building/realistic house walls and floors.vox" object="outer wall"/>
+					<vox file="MOD/main/realistic_house/building/realistic house walls and floors.vox" object="outer wall"/>
+					<vox file="MOD/main/realistic_house/building/realistic house walls and floors.vox" object="outer wall"/>
+					<group name="normal brushes">
+						<voxbox size="11 30 6" brush="MOD/main/realistic_house/building/realistic house walls and floors.vox" object="dry wall"/>
+						<voxbox size="15 34 12" brush="MOD/main/realistic_house/building/realistic house walls and floors.vox" object="outer wall"/>
+						<voxbox size="49 30 7" brush="MOD/main/realistic_house/building/realistic house walls and floors.vox" object="dry wall"/>
+						<voxbox size="27 30 7" brush="MOD/main/realistic_house/building/realistic house walls and floors.vox" object="dry wall"/>
+						<voxbox size="42 30 7" brush="MOD/main/realistic_house/building/realistic house walls and floors.vox" object="dry wall"/>
+						<voxbox size="8 30 7" brush="MOD/main/realistic_house/building/realistic house walls and floors.vox" object="dry wall"/>
 						<voxbox pos="0.2 0.4 12.1" rot="0.0 0.0 0.0" size="35 30 6" brush="MOD/main/realistic_house/building/realistic house walls and floors.vox" object="dry wall"/>
 						<voxbox pos="-4.4 0.4 20.6" rot="0.0 90.0 0.0" size="5 30 7" brush="MOD/main/realistic_house/building/realistic house walls and floors.vox" object="dry wall"/>
 						<voxbox pos="-3.7 0.4 19.9" rot="0.0 -90.0 0.0" size="2 30 7" brush="MOD/main/realistic_house/building/realistic house walls and floors.vox" object="dry wall"/>
@@ -10032,10 +10032,10 @@
 								<joint pos="0.4 -0.1 0.1" rot="-90.0 -180.0 0.0" type="hinge" limits="0 120"/>
 								<joint pos="0.4 0.8 0.1" rot="-90.0 -180.0 0.0" type="hinge" limits="0 120"/>
 							</body>
-							<body name="rear L" tags="Ydoor nocull" pos="-0.2 1.0 5.7" dynamic="true">
-								<vox pos="0.0 -0.5 -0.0" rot="0.0 -180.0 0.0" file="MOD/main/ambulance-TWC/ambulance01.vox" object="doorBL"/>
-								<joint pos="-0.4 -0.1 0.1" rot="90.0 0.0 0.0" type="hinge" limits="0 120"/>
-								<joint pos="-0.4 0.8 0.1" rot="90.0 0.0 0.0" type="hinge" limits="0 120"/>
+							<body name="rear L" tags="Ydoor nocull" dynamic="true">
+								<vox file="MOD/main/ambulance-TWC/ambulance01.vox" object="doorBL"/>
+								<joint type="hinge" limits="0 120"/>
+								<joint type="hinge" limits="0 120"/>
 							</body>
 						</group>
 						<group name="hatches">
@@ -10068,7 +10068,7 @@
 								<joint type="prismatic" limits="0 1.1"/>
 								<joint type="prismatic" limits="0 1.1"/>
 							</body>
-							<body name="SR1" tags="Yhood nocull" pos="1.1 -0.3 6.55" dynamic="true">
+							<body name="SR1" tags="Yhood nocull" dynamic="true">
 								<vox file="MOD/main/ambulance-TWC/ambulance01.vox" object="hatchR2"/>
 								<joint type="prismatic" limits="0 0.8"/>
 								<joint type="prismatic" limits="0 0.8"/>
@@ -10076,24 +10076,24 @@
 								<joint type="prismatic" limits="0 0.8"/>
 							</body>
 							<group name="interior">
-								<body name="interior-1" tags="Yhood nocull" pos="0.0 0.1 -1.5" dynamic="true">
-									<vox pos="0.1 0.0 0.0" rot="0.0 -180.0 0.0" file="MOD/main/ambulance-TWC/ambulance01.vox" object="interior-3"/>
-									<joint pos="0.0 0.5 0.05" rot="0.0 0.0 -90.0" type="hinge" limits="0 85"/>
+								<body name="interior-1" tags="Yhood nocull" dynamic="true">
+									<vox file="MOD/main/ambulance-TWC/ambulance01.vox" object="interior-3"/>
+									<joint type="hinge" limits="0 85"/>
 								</body>
-								<body name="interior-2" tags="Yhood nocull" pos="0.0 0.1 -0.8" dynamic="true">
-									<vox pos="0.1 0.0 0.0" rot="0.0 -180.0 0.0" file="MOD/main/ambulance-TWC/ambulance01.vox" object="interior-2"/>
-									<joint pos="0.0 0.5 -0.2" rot="0.0 0.0 -90.0" type="hinge" limits="0 85"/>
-									<joint pos="0.0 0.5 0.25" rot="0.0 0.0 -90.0" type="hinge" limits="0 85"/>
+								<body name="interior-2" tags="Yhood nocull" dynamic="true">
+									<vox file="MOD/main/ambulance-TWC/ambulance01.vox" object="interior-2"/>
+									<joint type="hinge" limits="0 85"/>
+									<joint type="hinge" limits="0 85"/>
 								</body>
-								<body name="interior-3" tags="Yhood nocull" pos="0.0 0.1 -0.1" dynamic="true">
-									<vox pos="0.1 0.0 0.0" rot="0.0 -180.0 0.0" file="MOD/main/ambulance-TWC/ambulance01.vox" object="interior-2"/>
-									<joint pos="0.0 0.5 -0.2" rot="0.0 0.0 -90.0" type="hinge" limits="0 85"/>
-									<joint pos="0.0 0.5 0.25" rot="0.0 0.0 -90.0" type="hinge" limits="0 85"/>
+								<body name="interior-3" tags="Yhood nocull" dynamic="true">
+									<vox file="MOD/main/ambulance-TWC/ambulance01.vox" object="interior-2"/>
+									<joint type="hinge" limits="0 85"/>
+									<joint type="hinge" limits="0 85"/>
 								</body>
-								<body name="interior-4" tags="Yhood nocull" pos="0.0 0.0 1.0" dynamic="true">
-									<vox pos="0.1 0.1 0.0" rot="0.0 -180.0 0.0" file="MOD/main/ambulance-TWC/ambulance01.vox" object="interior-1"/>
-									<joint pos="0.0 0.6 -0.2" rot="0.0 0.0 -90.0" type="hinge" limits="0 85"/>
-									<joint pos="0.0 0.6 0.25" rot="0.0 0.0 -90.0" type="hinge" limits="0 85"/>
+								<body name="interior-4" tags="Yhood nocull" dynamic="true">
+									<vox file="MOD/main/ambulance-TWC/ambulance01.vox" object="interior-1"/>
+									<joint type="hinge" limits="0 85"/>
+									<joint type="hinge" limits="0 85"/>
 								</body>
 							</group>
 							<body name="SR1 internal" tags="Yhood nocull" pos="0.9 -0.7 3.7" dynamic="true">
