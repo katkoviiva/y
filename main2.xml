@@ -84,11 +84,11 @@
 				</group>
 				<group name="inside brush">
 					<voxbox name="floor" size="89 4 60" brush="MOD/main/realistic_house/building/realistic house walls and floors.vox" object="floor kitchen"/>
-					<voxbox name="floor" pos="-3.6 0.1 2.4" rot="0.0 0.0 0.0" size="70 4 153" brush="MOD/main/realistic_house/building/realistic house walls and floors.vox" object="floor"/>
-					<voxbox name="floor" pos="-13.4 0.1 5.9" rot="0.0 0.0 0.0" size="98 4 113" brush="MOD/main/realistic_house/building/realistic house walls and floors.vox" object="floor"/>
-					<voxbox name="floor" pos="-5.2 0.1 17.7" rot="0.0 0.0 0.0" size="94 4 128" brush="MOD/main/realistic_house/building/realistic house walls and floors.vox" object="floor"/>
-					<voxbox name="floor" pos="2.9 0.1 9.4" rot="0.0 0.0 0.0" size="103 4 152" brush="MOD/main/realistic_house/building/realistic house walls and floors.vox" object="floor"/>
-					<voxbox name="floor" pos="13.1 0.1 12.6" rot="0.0 0.0 0.0" size="28 4 179" brush="MOD/main/realistic_house/building/realistic house walls and floors.vox" object="floor"/>
+					<voxbox name="floor" size="70 4 153" brush="MOD/main/realistic_house/building/realistic house walls and floors.vox" object="floor"/>
+					<voxbox name="floor" size="98 4 113" brush="MOD/main/realistic_house/building/realistic house walls and floors.vox" object="floor"/>
+					<voxbox name="floor" size="94 4 128" brush="MOD/main/realistic_house/building/realistic house walls and floors.vox" object="floor"/>
+					<voxbox name="floor" size="103 4 152" brush="MOD/main/realistic_house/building/realistic house walls and floors.vox" object="floor"/>
+					<voxbox name="floor" size="28 4 179" brush="MOD/main/realistic_house/building/realistic house walls and floors.vox" object="floor"/>
 					<voxbox name="floor" pos="3.3 0.1 -3.9" rot="0.0 0.0 0.0" size="127 4 133" brush="MOD/main/realistic_house/building/realistic house walls and floors.vox" object="floor garage"/>
 					<voxbox name="floor" pos="13.3 0.1 9.4" rot="0.0 0.0 0.0" size="27 4 32" brush="MOD/main/realistic_house/building/realistic house walls and floors.vox" object="floor garage"/>
 					<voxbox name="floor" pos="14.6 0.1 -3.9" rot="0.0 180.0 0.0" size="98 4 25" brush="MOD/main/realistic_house/building/realistic house walls and floors.vox" object="floor garage ramp"/>
