@@ -1,13 +1,55 @@
+#include <Wire.h>
+#include <Adafruit_GFX.h>
+#include <Adafruit_SSD1306.h>
+
+#define SCREEN_WIDTH 128 // OLED display width, in pixels
+#define SCREEN_HEIGHT 64 // OLED display height, in pixels
+
+#define OLED_RESET     -1 // Reset pin # (or -1 if sharing Arduino reset pin)
+#define SCREEN_ADDRESS 0x3C ///< See datasheet for Address; 0x3D for 128x64, 0x3C for 128x32
+Adafruit_SSD1306 display(SCREEN_WIDTH, SCREEN_HEIGHT, &Wire, OLED_RESET);
+
+#define NUMFLAKES     10 // Number of snowflakes in the animation example
+
+#define LOGO_HEIGHT   16
+#define LOGO_WIDTH    16
+static const unsigned char PROGMEM logo_bmp[] =
+{ B00000000, B11000000,
+  B00000001, B11000000,
+  B00000001, B11000000,
+  B00000011, B11100000,
+  B11110011, B11100000,
+  B11111110, B11111000,
+  B01111110, B11111111,
+  B00110011, B10011111,
+  B00011111, B11111100,
+  B00001101, B01110000,
+  B00011011, B10100000,
+  B00111111, B11100000,
+  B00111111, B11110000,
+  B01111100, B11110000,
+  B01110000, B01110000,
+  B00000000, B00110000 };
+
 #include <Adafruit_NeoPixel.h>
 #ifdef __AVR__
  #include <avr/power.h> // Required for 16 MHz Adafruit Trinket
 #endif
 
 // Which pin on the Arduino is connected to the NeoPixels?
-#define PIN 6 // On Trinket or Gemma, suggest changing this to 1
-
+// On a Trinket or Gemma we suggest changing this to 1:
+#define LED_PIN     6
+#define THERM_PIN   2
 // How many NeoPixels are attached to the Arduino?
-#define NUMPIXELS 300 // Popular NeoPixel ring size
+#define LED_COUNT  300
+
+// NeoPixel brightness, 0 (min) to 255 (max)
+#define BRIGHTNESS 255
+
+#define DEMOTIME 10000
+#define DEMOMULTI 3600
+uint16_t DAYLENGTH = 43200;
+uint16_t NIGHTLENGTH = 43200;
 
 // When setting up the NeoPixel library, we tell it how many pixels,
 // and which pin to use to send signals. Note that for older NeoPixel
@@ -30,8 +72,11 @@ void setup() {
 
 void loop() {
   pixels.clear(); // Set all pixel colors to 'off'
+  
+}
 
-  // The first NeoPixel in a strand is #0, second is 1, all the way up
+void nightlight() {
+ // The first NeoPixel in a strand is #0, second is 1, all the way up
   pixels.setPixelColor(0, pixels.Color(14, 15, 0));
   pixels.setPixelColor(1, pixels.Color(14, 15, 0));
   pixels.setPixelColor(2, pixels.Color(14, 15, 0));
@@ -337,7 +382,36 @@ void loop() {
   pixels.setPixelColor(297, pixels.Color(14, 15, 0));
   pixels.setPixelColor(298, pixels.Color(14, 15, 0));
   pixels.setPixelColor(299, pixels.Color(14, 15, 0));
-  
-    pixels.show();   // Send the updated pixel colors to the hardware.to the count of pixels minus one.
-  
+  pixels.show();   // Send the updated pixel colors to the hardware.to the count of pixels minus one.
+}
+
+void serialManager() {
+  if (Serial.available() > 0) {
+    if (srl_opcode = -1) { // If no operation in progress yet
+      srl_opcode = Serial.read();
+      if (Serial.available() == 0) {return;} // Break loop before reseting state
+    }
+    if (srl_opcode == int("r") or srl_opcode == int("R")) {
+      r_val = Serial.parseInt();
+      Serial.print("Red value set to: ");
+      Serial.println(r_val);
+    } else if (srl_opcode == int("g") or srl_opcode == int("G")) {
+      g_val = Serial.parseInt();
+      Serial.print("Green value set to: ");
+      Serial.println(g_val);
+    } else if (srl_opcode == int("b") or srl_opcode == int("B")) {
+      b_val = Serial.parseInt();
+      Serial.print("Blue value set to: ");
+      Serial.println(b_val);
+    } else if (srl_opcode == int("d") or srl_opcode == int("D")) {
+      DAYLENGTH = Serial.parseInt();
+      Serial.print("Day length set to: ");
+      Serial.println(DAYLENGTH);
+    } else if (srl_opcode == int("n") or srl_opcode == int("N")) {
+      NIGHTLENGTH = Serial.parseInt();
+      Serial.print("Night length set to: ");
+      Serial.println(NIGHTLENGTH);
+    }
+    srl_opcode=-1; // Reset the state
+  }
 }
