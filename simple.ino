@@ -1,3 +1,5 @@
+// diodipalo455555555555555555555552222222222222222222222222222222222222222
+
 #include <Wire.h>
 #include <Adafruit_GFX.h>
 #include <Adafruit_SSD1306.h>
